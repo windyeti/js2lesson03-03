@@ -1,0 +1,17 @@
+extends ../_layout.pug
+
+block mainContain
+	form.form(action='#' method='get' name='form-autorization')
+		label.form-label 
+			.form-sing Имя
+			input.form-name.form-input(type='text' name='name' placeholder='Имя')
+		label.form-label 
+			.form-sing Телефон
+			input.form-phone.form-input(type='text' name='phone' placeholder='+7 (700) 700-00-00')
+		label.form-label 
+			.form-sing E-mail
+			input.form-email.form-input(type='text' name='email' placeholder='e-mail@mail.ru')
+		label.form-label 
+			.form-sing Сообщение
+			textarea.form-message(name='message' placeholder='сообщение')
+		button.form-button.form-button_submit(type='submit') Отправить

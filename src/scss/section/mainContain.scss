@@ -1,0 +1,20 @@
+.form {
+	width: 300px;
+	border: 1px solid lightblue;
+	border-radius: 3px;
+	padding: 10px;
+}
+.form-label {
+	text-align: right;
+}
+.form-sing {
+	float: left;
+	padding-right: 20px;
+}
+.form-input {
+	width: 200px;
+	float: right;
+}
+.error {
+	border-color: red;
+}
